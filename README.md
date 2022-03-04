@@ -6,9 +6,6 @@ This repository is an improved version of https://github.com/nsubbaian/BailProje
 
 Changes:
 - Web Scraper
-  - Fixed several bugs
-    - Corrected errors resulting in exceptions while scraping Pearl River and Jackson counties
-    - Corrected errors with incorrectly implemented code that did not fulfill its intended purpose
-  - Cleaned up code style
-    - Implemented a single unified code style
-    - Removed unused code and comments
+  - Rewrote web scraper from scratch
+    - Web scrapers now include previously missing data
+    - Web scrapers are designed to use a single format for the data, rather than a different format per county
