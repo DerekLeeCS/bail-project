@@ -8,4 +8,9 @@ Changes:
 - Web Scraper
   - Rewrote web scraper from scratch
     - Web scrapers now include previously missing data
-    - Web scrapers are designed to use a single format for the data, rather than a different format per county
+- Data Cleaner
+  - Added a data cleaner to ensure data is consistent across counties
+    - Renames columns that represent the same data
+      - E.g. 'Arrest Agency' and 'Arresting Agency'
+    - Renames data that represents the same category
+      - E.g. Race - 'B', 'Black', and 'BLACK'
