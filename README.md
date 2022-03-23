@@ -1,4 +1,4 @@
-# BailProject
+# bail-project
 
 This repository currently contains a web scraper to collect the jail rosters for several counties in Mississippi. We are collecting this information on behalf of [The Bail Project](https://bailproject.org/).
 
